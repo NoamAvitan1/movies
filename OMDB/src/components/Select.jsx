@@ -12,7 +12,7 @@ const Select = ({ id }) => {
           `/search/${id ? id : "naruto"}/year/${selcetRef.current.value}`
         );
       }}
-      className="border-2 p-2 select lg:w-[320px] md:w-[180px] sm:w-[90px] select-bordered select-error me-5"
+      className="border-2 p-2 select lg:w-[320px] md:w-[180px] sm:w-[90px]"
     >
       <option disabled defaultValue className=" text-zinc-600" value="">
         Select a year
